@@ -37,6 +37,7 @@ const StatesOfMatter = () => {
 
   return (
     <><div className='container'>
+      <div className='background'>
     <div>
       Temperature  {temperature} 
     </div>
@@ -47,7 +48,8 @@ const StatesOfMatter = () => {
         <button onClick={() => setTemperature(24)}>Reset</button>
       </div>
 
-<div>State {state.state} </div>
+              <div>State {state.state} </div>
+</div>
 </div>
     </>
   );
